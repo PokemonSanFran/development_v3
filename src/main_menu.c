@@ -2323,7 +2323,7 @@ static void NewGameBirchSpeech_ShowCustomizeMenu(void)
 {
     DrawMainMenuWindowBorder(&gNewGameBirchSpeechTextWindows[3], 0xF3);
     FillWindowPixelBuffer(1, PIXEL_FILL(1));
-    PrintMenuTable(2, ARRAY_COUNT(sMenuActions_ParentCustomize), sMenuActions_ParentCustomize);
+    PrintMenuTable(1, ARRAY_COUNT(sMenuActions_ParentCustomize), sMenuActions_ParentCustomize);
     InitMenuInUpperLeftCornerPlaySoundWhenAPressed(1, 3, 0);
     PutWindowTilemap(1);
     CopyWindowToVram(1, 3);
